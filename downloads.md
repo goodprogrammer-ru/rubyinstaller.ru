@@ -1,55 +1,52 @@
 ---
 layout: downloads
-title: Downloads
+title: Загрузить
 permalink: /downloads/
 ---
-### Which version to download?
+### Какую версию загружать?
 
-If you don’t know what version to install and you’re getting started with Ruby, we recommend you use <b>Ruby+Devkit 2.5.X (x64)</b> installer.
-It provides the biggest number of compatible gems and installs MSYS2-Devkit alongside Ruby, so that gems with C-extensions can be compiled immediately.
-The 32 bit (x86) version is recommended only if custom 32 bit native DLLs or COM objects have to be used.
+Если вы не знаете, какую версию RubyInstaller установить и вы только начинаете работать с Ruby, то используйте
+установщик <b>Ruby+Devkit 2.5.x (x64)</b>. Он содержит наибольшее количество совместимых гемов и устанавливает
+MSYS2-Devkit вместе с Ruby, потому гемы с расширением C скомпилируются сразу же. 32-битную (x86) версию советуем,
+только если приходится работать с пользовательскими 32-битными встроенными DLL- или COM-объектами.
 
+### Как обновлять?
 
-### How to update?
+Обновите Ruby до свежего патча (например, с версии 2.4.1 до 2.4.4), запустив новую версию установщика.
+Установленные гемы не перезапишутся и будут стабильно работать с новыми версиями. Используйте RubyInstaller
+(без Devkit), чтобы обновить установки. Сам Devkit обновляйте отдельно с помощью команды `ridk install`.
 
-Ruby can be updated to the latest patch version (e.g. from 2.4.1 to 2.4.4) by running the new installer version.
-Installed gems are not overwritten and will work with the new version without re-installation.
-It's sufficient to use the RubyInstaller without Devkit for update installations.
-The Devkit can be updated separately per `ridk install` command.
+Если вы загружаете версию Ruby из другой стабильной ветки (2.5.x, например), используйте новую директорию для установки.
+То есть не следует обновлять RubyInstaller-2.4.x до версии 2.5.x, так как гемы с расширением C несовместимы между
+Ruby 2.4 и 2.5. Больше информации об этом в разделе [FAQ](https://github.com/oneclick/rubyinstaller2/wiki/FAQ#user-content-update-install).
 
-If the new Ruby version is from a different stable branch, then please use a new target directory for installation.
-That is to say a previous RubyInstaller-2.4.x installation <b>should not</b> be updated by installing RubyInstaller-2.5.x into the same directory.
-This is because gems with C extensions are not compatible between ruby-2.4 and 2.5.
-Find more in the [FAQ](https://github.com/oneclick/rubyinstaller2/wiki/FAQ#user-content-update-install).
+### Какую версию Development Kit выбрать?
 
+Для Ruby 2.4.0 и новее в качестве комплекта разработки используется [пакет MSYS2](http://www.msys2.org). Он входит в
+состав <b>Ruby+Devkit</b> как компонент по выбору, чтобы не было нужды скачивать/устанавливать MSYS2 дополнительно.
+Если используете Ruby без Devkit, то MSYS2 Devkit устанавливайте отдельно командой `ridk install`
 
-### Which Development Kit?
+MSYS2 требуется для сборки встроенных дополнений на C/C++ для Ruby. Он необходим также для 
+[Ruby on Rails](http://rubyonrails.org/). Более того, MSYS2 позволяет загружать и использовать 
+[сотни Open Source библиотек](https://github.com/Alexpux/MINGW-packages), от которых могут зависеть некоторые гемы.
 
-Ruby 2.4.0 and newer use the [MSYS2 toolchain](http://www.msys2.org) as development kit.
-It is bundled into the <b>Ruby+Devkit</b> installer version as a selectable component, so that no additional downloads/installs are required.
-When using the Ruby without Devkit version, the MSYS2 Devkit can be installed separately by running `ridk install`.
+Среду разработки MSYS2 запускайте в консоли с помощью `ridk enable`. Она добавляет команды `make`, `gcc`, `pacman` 
+или `sh` к пути поиска. Больше информации в [вики](https://github.com/oneclick/rubyinstaller2/wiki/The-ridk-tool).
 
-MSYS2 is required to build native C/C++ extensions for Ruby and is necessary for [Ruby on Rails](http://rubyonrails.org/).
-Moreover it allows the download and usage of [hundreds of Open Source libraries](https://github.com/Alexpux/MINGW-packages) which Ruby gems can depend on.
+### Скорость и  удобство
 
-The MSYS2 development environment can be activated in the running cmd or powershell console by `ridk enable`.
-This adds commands like `make`, `gcc`, `pacman` or `sh` to the search path.
-See more in the [Wiki](https://github.com/oneclick/rubyinstaller2/wiki/The-ridk-tool).
+RubyInstaller компилируется с помощью GCC в дату выхода. Установленный Ruby — это нативное Windows-приложение,
+которое работает вкупе с функциональным дистрибутивом [MSYS2](http://www.msys2.org) и
+[MINGW-библиотеками](https://github.com/Alexpux/MINGW-packages).
 
+Ищите больше о RubyInstaller и его альтернативах [здесь]({{ "/about/comparison" | relative_url }}).
 
-### Speed and Convenience
+### Документация
 
-RubyInstaller is compiled with the latest GCC at the release date.
-The installed ruby is a native Windows application but combines this with the rich UNIX toolset of [MSYS2](http://www.msys2.org) and the [large repository of MINGW libraries](https://github.com/Alexpux/MINGW-packages).
+Основы и документация стандартной библиотеки Ruby входит в пакет установки. Мы рекомендуем почитать ещё и
+[online-вариант](https://ruby-doc.org/) или HTML-версию, которую можно скачать на [ruby-doc.org](https://ruby-doc.org/downloads/).
 
-Find more about RubyInstaller and it's alternatives [here]({{ "/about/comparison" | relative_url }}).
+### Поддержа
 
-### Documentation
-
-The Ruby core and standard library documentation is part of the installation.
-We also recommend the [online documentation](https://ruby-doc.org/) or HTML version downloadable [from ruby-doc.org](https://ruby-doc.org/downloads/).
-
-### Support
-
-Enjoy, happy Ruby coding, and let us know what you think or if you have any issues at our helpful and friendly
-[RubyInstaller Google Group](http://groups.google.com/group/rubyinstaller).
+Делитесь вашим мнением о RubyInstaller или предлагайте улучшения в нашей дружелюбной и полезной 
+[Google Группе](http://groups.google.com/group/rubyinstaller). Счастливого программирования на Ruby!

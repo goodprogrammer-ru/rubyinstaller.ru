@@ -3,21 +3,23 @@ layout: add-on
 titel:  "MSYS2 / DevKit"
 order: 20
 ---
-## Meet MSYS and the DevKit
+##  Встречайте MSYS и DevKit
 
-Sometimes you just want RubyGems to build that cool native, C-based extension without squawking.
-Who’s your buddy?
-The DevKit that’s who!
+Иногда нужны просто Ruby-гемы, чтобы создать крутое нативное дополнение на C без заморочек. Кто твой друг? DevKit —
+вот кто!
 
-### MSYS2-DevKit (only Ruby >= 2.4)
-Stating with RubyInstaller-2.4 we're no longer using our own DevKit compilation, but make use of MSYS2 for both, building ruby itself, as well as building Ruby gems with C-extensions.
-It can be installed per `ridk install` command, which is part of RubyInstaller-2.4. Alternatively a manual download and installation from [MSYS2](http://www.msys2.org) is also possible.
+### MSYS2-DevKit (только для Ruby >= 2.4)
 
-### Dedicated DevKit (only Ruby < 2.4)
+С версии RubyInstaller 2.4, вместо нашей собственной сборки DevKit, мы используем MSYS2 для компиляции как самого 
+Ruby, так и гемов с расширением C. Его можно установить с помощью команды `ridk install`, которую добавляет сам
+RubyInstaller 2.4. Альтернативный вариант — загрузить и установить [MSYS2](http://www.msys2.org) вручную.
 
-The [RubyInstaller Development Kit](http://rubyinstaller.org/downloads/) is a toolkit that makes it easy to build and use native C/C++ extensions such as RDiscount and Nokogiri for Ruby on Windows.
-It is built upon MSYS1, which is no longer maintained, now.
-So you should upgrade to RubyInstaller-2.4 with makes use of MSYS2.
+### Специализированный DevKit (только для  Ruby < 2.4)
 
-Simply download, double-click, choose an installation directory, run the Ruby install helper script and you’re ready to start using native Ruby extensions.
-For installation details check out the [Development Kit wiki page](http://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
+[RubyInstaller Development Kit](http://rubyinstaller.org/downloads/) — это набор инструментов, с которым легко создавать 
+и использовать нативные C/C++ дополнения — как, например, RDiscount или Nokogiri — на Windows. DevKit основан на MSYS1, 
+который уже не поддерживается. Чтобы работать с MSYS2, обновитесь до RubyInstaller 2.4. 
+
+Просто скачайте, кликните дважды по файлу, выберите папку для установки, запустите помощника и всё. Теперь вы можете
+использовать родные Ruby-библиотеки. Подробности о том, как устанавливать DevKit, смотрите на
+[вики-странице](http://github.com/oneclick/rubyinstaller/wiki/Development-Kit).

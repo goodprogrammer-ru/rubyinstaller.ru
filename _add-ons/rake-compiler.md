@@ -5,7 +5,7 @@ order: 30
 ---
 ## Rake Compiler
 
-Want to easily create a Ruby native C extension for Windows and have RubyGems install it without a fight?
-Rake Compiler is the de-facto standard to support C based ruby extensions.
+Хотите создавать нативные C-расширения для Ruby на Windows и без проблем их устанавливать? Rake Compiler — это 
+фактический стандарт в сфере поддержки Ruby-гемов.
 
-[>> rake-compiler on github](http://github.com/rake-compiler/rake-compiler/)
+[>> репозиторий rake-compiler на GitHub](http://github.com/rake-compiler/rake-compiler/)

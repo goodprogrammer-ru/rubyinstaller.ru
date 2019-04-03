@@ -5,9 +5,10 @@ order: 10
 ---
 ## Unleash Ruby
 
-Want to try out multiple Ruby’s on your Windows system without wrecking your current Ruby setup?
+Хотите без проблем переключаться между версиями Ruby на Windows?
 
-Uru is a lightweight, multi-platform command line tool that helps you use the multiple rubies (currently MRI, JRuby, and Rubinius) on your 32/64-bit Linux, OS X, or Windows systems.
-You can [download it here](https://bitbucket.org/jonforums/uru/wiki/Downloads).
+Uru — это лёгкая и мультиплатформенная консольная утилита, которая помогает работать с разными версиями языка
+(в рамках интерпретаторов MRI, JRuby и Rubinius) на 32/64-битном Linux, OS X или Windows. 
+[Загрузите Uru здесь](https://bitbucket.org/jonforums/uru/wiki/Downloads).
 
-[>> uru on bitbucket](https://bitbucket.org/jonforums/uru)
+[>> репозиторий Uru на Bitbucket](https://bitbucket.org/jonforums/uru)

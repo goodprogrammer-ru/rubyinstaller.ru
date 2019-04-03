@@ -1,24 +1,24 @@
-## RubyInstallers <a id="archive" href="{{ "/downloads/archives" | relative_url }}">Archives</a>
+## RubyInstaller <a id="archive" href="{{ "/downloads/archives" | relative_url }}">Архивы</a>
 
-Not sure what version to download? Please read the right column for recommendations.
+Не знаете, какую версию выбрать? Тогда прочтите инструкцию справа.
 
-###  with Devkit
+###  С Devkit
 
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "ridkexe" | where: "show", "true") %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-### without Devkit
+### Без Devkit
 
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "rubyinstallerexe" | where: "show", "true") %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-## Other Useful Downloads
+## Другие полезные дополнения
 
-### 7-Zip Archives
+### 7-Zip архиватор
 
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "rubyinstaller7z" | where: "show", "true") %}
@@ -26,7 +26,7 @@ Not sure what version to download? Please read the right column for recommendati
 </ul>
 
 
-### Ruby Core & Standard Library Documentation (old)
+### Основы Ruby и документация стандартной библиотеки (старая)
 
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "rubychm7z" | where: "show", "true") %}
@@ -34,9 +34,9 @@ Not sure what version to download? Please read the right column for recommendati
 </ul>
 
 
-### Development Kit (old)
+### Development Kit (старая)
 
-#### For use with Ruby 2.0 to 2.3 (32bits version only):
+#### Для Ruby версий от 2.0 до 2.3 (для 32-битной версии):
 
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "devkitsfx" | where: "show", "32") %}
@@ -44,7 +44,7 @@ Not sure what version to download? Please read the right column for recommendati
 </ul>
 
 
-#### For use with Ruby 2.0 to 2.3 (x64 - 64bits only)
+#### Для Ruby версий от 2.0 до 2.3 (для 64-битной версии)
 
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "devkitsfx" | where: "show", "64") %}

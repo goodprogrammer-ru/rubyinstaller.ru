@@ -1,24 +1,24 @@
-## RubyInstallers <a id="archive" href="{{ "/downloads/archives" | relative_url }}">Archives</a>
+## RubyInstaller <a id="archive" href="{{ "/downloads/archives" | relative_url }}">Архивы</a>
 
-Not sure what version to download? Please read the right column for recommendations.
+Не знаете, какую версию выбрать? Тогда прочтите инструкцию справа.
 
-###  with Devkit
+###  С Devkit
 
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "ridkexe" | where: "show", "true" %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-### without Devkit
+### Без Devkit
 
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "rubyinstallerexe" | where: "show", "true" %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-## Other Useful Downloads
+## Другие полезные дополнения
 
-### 7-Zip Archives
+### 7-Zip архивы
 
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "rubyinstaller7z" | where: "show", "true" %}

@@ -1,6 +1,6 @@
 ---
 layout: download_archives
-title: Download Archives
+title: Загрузить архивы
 permalink: /downloads/archives/
 ---
 
@@ -25,7 +25,7 @@ permalink: /downloads/archives/
 </div>
 <div class="span-8 border" markdown="1">
 
-## Archives
+## Архивы
 <ul>
   {% assign dls = (site.data.downloads | where: "filetype", "rubyinstaller7z") %}
   {% include downloadlinks.html dls=dls %}

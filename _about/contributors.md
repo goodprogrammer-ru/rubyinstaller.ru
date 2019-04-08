@@ -4,25 +4,6 @@ titel: Внесли вклад
 permalink: /about/contributors/
 order: 20
 ---
-## Thanks to (alphabetic)
+## Над проектом работали
 
-* Justin Baker
-* Daniel Berger
-* Simon Bohlin
-* Alexey Borzenkov
-* Rodolfo Budeguer
-* Lars Christensen
-* Huw Collingbourne
-* Timothy Elliott
-* Park Heesob
-* Curt Hibbs
-* Martin Hrdlička
-* Bosko Ivanisevic
-* Lars Kanis
-* Luis Lavena
-* Pavel Maček
-* Jon Maken
-* Roger Pack
-* Charles Roper
-* Hiroshi Shirosaki
-* Gordon Thiesfeld
+Список разработчиков, которые внесли вклад, можно посмотреть на [оригинальной странице проекта](https://rubyinstaller.org/about/contributors/).

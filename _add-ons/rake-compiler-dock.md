@@ -1,11 +1,11 @@
 ---
 layout: add-on
-titel:  "Rake Compiler Dock"
+titel:  "Компилятор Rake для Dock"
 order: 40
 ---
-## Rake Compiler Dock
+## Компилятор Rake для Dock
 
-Rake Compiler Dock — это сопутствующий гем для [rake-compiler](http://github.com/rake-compiler/rake-compiler/), который
+Компилятор Rake для Dock — это сопутствующий гем для [rake-compiler](http://github.com/rake-compiler/rake-compiler/), который
 запускает кросс-компилируемое окружение на базе Docker. В этом окружении можно разрабатывать бинарные гемы с 
 расширением C для всех поддерживаемых версий Ruby на Windows или Linux.
 

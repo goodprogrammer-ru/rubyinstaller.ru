@@ -3,7 +3,7 @@ layout: add-on
 titel:  "uru"
 order: 10
 ---
-## Unleash Ruby
+## Раскройте потенциал Ruby
 
 Хотите без проблем переключаться между версиями Ruby на Windows?
 

@@ -36,7 +36,7 @@ border: 1px solid #dddddd;
 }
 
 h2 {
-        font-family: Vegur;
+        font-family: 'Source Sans Pro', sans-serif;;
         font-size: 25px;
         font-weight: bold;
 }
@@ -119,7 +119,7 @@ div#right_content_sub {
 ul#navbar {
         list-style: none;
         margin: 27px 0 0 100px;
-        font: bold 18px/1.5 Arial, Helvetica, sans-serif;
+        font: bold 18px/1.5 'Source Sans Pro', sans-serif;
         height: 29px;
 }
 ul#navbar li {
@@ -158,7 +158,7 @@ div#graphic_sub {
         width: 950px;
 }
 div#graphic h1, div#graphic_sub h1 {
-        font-family: Vegur;
+        font-family: 'Source Sans Pro', sans-serif;
         font-size: 34px;
         font-weight: bold;
         margin: 20px 0 10px 0px;
@@ -284,7 +284,7 @@ div.news_item {
         padding: 0 20px 20px 0;
 }
 div.news_item h3 {
-        font: 17px/1.5 Arial, Helvetica, sans-serif;
+        font: 17px/1.5 'PT Sans', sans-serif;
         text-transform:none;
         font-weight: bold;
         color: #960407;
@@ -314,7 +314,7 @@ div.knowledge_item {
         padding: 0 20px 20px 0;
 }
 div.knowledge_item h3 {
-        font: 12px/1.875 Arial, Helvetica, sans-serif;
+        font: 12px/1.875 'PT Sans', sans-serif;
         text-transform:none;
         font-weight: bold;
         color: #960407;
@@ -472,12 +472,10 @@ input.js-copytextinput {
 }
 
 @font-face {
-    font-family: "Vegur";
-    src: url("fonts/Vegur-Regular.woff") format('woff');
+   font-family: 'Source Sans Pro', sans-serif;
 }
 @font-face {
-    font-family: "Vegur";
-    src: url("fonts/Vegur-Bold.woff") format('woff');
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
 }
 

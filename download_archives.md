@@ -7,21 +7,21 @@ permalink: /downloads/archives/
 <div>
 <div class="span-8 border" markdown="1">
 
-## Ruby+Devkit Installers
+## Версии установщика Ruby+Devkit
 
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "ridkexe" %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-## RubyInstallers
+## Версии установщика Ruby
 
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "rubyinstallerexe" %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-[« Back]({{ "/downloads" | relative_url }})
+[« Назад]({{ "/downloads" | relative_url }})
 </div>
 <div class="span-8 border" markdown="1">
 
@@ -34,13 +34,13 @@ permalink: /downloads/archives/
 
 
 <div class="span-8 last" markdown="1">
-## Documentation
+## Документация
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "rubychm7z" %}
   {% include downloadlinks.html dls=dls %}
 </ul>
 
-## DevKits
+## Версии DevKit
 <ul>
   {% assign dls = site.data.downloads | where: "filetype", "devkitsfx" %}
   {% include downloadlinks.html dls=dls %}

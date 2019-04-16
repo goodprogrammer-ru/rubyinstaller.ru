@@ -1,6 +1,6 @@
 ---
 layout: add-on
-titel:  "Компилятор Rake"
+title:  "Компилятор Rake"
 order: 30
 ---
 ## Компилятор Rake

@@ -1,6 +1,6 @@
 ---
 layout: about
-titel: О RubyInstaller
+title: О RubyInstaller
 permalink: /about/
 order: 10
 ---

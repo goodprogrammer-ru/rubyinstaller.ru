@@ -1,6 +1,6 @@
 ---
 layout: add-on
-titel:  "Компилятор Rake для Dock"
+title:  "Компилятор Rake для Dock"
 order: 40
 ---
 ## Компилятор Rake для Dock

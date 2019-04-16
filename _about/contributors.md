@@ -1,6 +1,6 @@
 ---
 layout: about
-titel: Внесли вклад
+title: Внесли вклад
 permalink: /about/contributors/
 order: 20
 ---

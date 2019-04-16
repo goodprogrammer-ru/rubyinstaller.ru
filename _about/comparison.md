@@ -1,6 +1,6 @@
 ---
 layout: about
-titel: Подойдёт ли мне?
+title: Подойдёт ли мне?
 permalink: /about/comparison/
 order: 15
 ---

@@ -20,6 +20,13 @@ MSYS2-DevKit вместе с Ruby, потому гемы с расширение
 То есть не следует обновлять RubyInstaller-2.5.x до версии 2.6.x, так как гемы с расширением C несовместимы между
 Ruby 2.5 и 2.6. Больше информации об этом в разделе [FAQ](https://github.com/oneclick/rubyinstaller2/wiki/FAQ#user-content-update-install).
 
+### RubyInstaller-head
+
+RubyInstaller-head is a daily updated version of the [Ruby development branch](https://github.com/ruby/ruby/).
+It can be used for continuous integration tests (CI) on your gems or applications, so that you’re prepared for upcoming changes to the ruby core.
+Builds are available on stable download URIs in the [github release section](https://github.com/oneclick/rubyinstaller2/releases/tag/rubyinstaller-head).
+They can be easily [integrated into Appveyor](https://github.com/oneclick/rubyinstaller2/wiki/For-gem-developers#user-content-appveyor).
+
 ### Какую версию Development Kit выбрать?
 
 Для Ruby 2.4.0 и новее в качестве комплекта разработки используется [пакет MSYS2](http://www.msys2.org). Он входит в

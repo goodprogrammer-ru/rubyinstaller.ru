@@ -1,6 +1,6 @@
 ---
 layout: download_archives
-title: Загрузить архивы
+title: Архивы для скачивания
 permalink: /downloads/archives/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: downloads
-title: Загрузить
+title: Скачать
 permalink: /downloads/
 ---
 ### Какую версию загружать?

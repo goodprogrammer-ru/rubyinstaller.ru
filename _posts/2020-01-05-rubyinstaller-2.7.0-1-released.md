@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RubyInstaller 2.7.0-1 released"
+title:  "Новая версия RubyInstaller 2.7.0-1"
 author: Lars Kanis
 ---
 Вышла версия 2.7.0-1 установщика Ruby.

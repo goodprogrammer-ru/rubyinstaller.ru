@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "RubyInstaller 3.0.0-1 released"
+title:  "Вышел установщик Ruby 3.0.0-1"
 author: Lars Kanis
 ---
-RubyInstaller-3.0.0-1 has been released!
-It features a whole bunch of great new features and improvements.
-See the [ruby-3.0.0 release post](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/) for more details.
+Вышел установщик Ruby 3.0.0-1!
+Он добавляет в руби много классных фич и улучшений.
+Читайте пост [про релиз ruby-3.0.0](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/), если хотите подробностей.
 
-Ruby-3.0.0 finishes the transition to UTF-8 as the primary character encoding on Windows.
-This enables full Unicode character set for filesystem and environment variables and increases compatibility with other tools and operating systems.
+Ruby-3.0.0 завершает переход к кодировке UTF-8 как основной кодировке на Windows.
+Теперь работает полная поддержка всех возможных Unicode-символов для файловой системы и переменных окружения и улучшена совместимость с другими инструментами операционной системы.
 
-Please note, that some gems are not yet compatible with Ruby-3.0 on Windows.
-In this case you might stay on 2.7 until 3.0 is well supported.
+Обратите, однако, внимание, что некоторые гемы до сих пор не совместимы с Ruby-3.0 на ОС Windows.
+Возможно, стоит пока использовать версию 2.7, пока версия 3.0 не будет поддерживаться.
 
-A previous RubyInstaller-2.6.x or 2.7.x installation <b>should not</b> be updated by installing RubyInstaller-3.0.x into the same directory.
-This is because gems with C extensions are not compatible between ruby-2.7 and 3.0.
-It's best to use a new directory for 3.0.x as proposed by the installer.
+<b>Не стоит</b> обновлять предыдущие версии установщика Ruby 2.6.x или 2.7.x, устанавливая новую версию установщика Ruby 3.0.x в ту же папку.
+Причина — несовместимость гемов с расширениями на языке C для версий ruby-2.7 и 3.0.
+Лучше всего использовать другую папку для установки Ruby 3.0.x, как и предложит установщик.
 
-All binaries are available in the [Download section]({{ "/downloads/" | relative_url }})!
+Все бинарники лежат в разделе [Скачать]({{ "/downloads/" | relative_url }})!
